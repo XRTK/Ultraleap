@@ -19,6 +19,7 @@ project.lock.json
 *.package
 TextMesh Pro.meta
 TextMesh Pro/
+*packages-lock.json
 
 # ============ #
 # Certificates #
@@ -51,19 +52,23 @@ obj/
 *.log
 *.idb
 *.opendb
+*.vsconfig
 
 # ============================ #
 # Visual Studio Code Generated #
 # ============================ #
 .vscode/
 
+# ========================= #
+# Jetbrains Rider Generated #
+# ========================= #
+.idea/
+_ReSharper.Caches
+
 # ===================== #
 # Project Specific List #
 # ===================== #
 artifacts/
-ThirdParty/
-ThirdParty.meta
+Assets/ThirdParty/
+Assets/ThirdParty.meta
 --Version/
-XRTK.Ultraleap/Assets/Ultraleap/Profiles
-XRTK.Ultraleap/Assets/Ultraleap/Profiles.meta
-
